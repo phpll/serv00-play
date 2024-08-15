@@ -25,7 +25,7 @@ install(){
 		exit 1
   fi
 	echo "正在安装..."
-	if ! git clone https://github.com/frankiejun/serv00-play.git; then
+	if ! git clone https://github.com/phpll/serv00-play.git; then
 		echo -e "${RED}安装失败!${RESET}"
 		exit 1;
   fi
